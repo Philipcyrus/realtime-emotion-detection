@@ -1,0 +1,5 @@
+numpy>=1.26
+opencv-python>=4.9
+tensorflow>=2.16
+datasets>=3.0
+pillow>=10.0

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emotion-detection"
+version = "0.1.0"
+description = "Real-time webcam emotion detection using Python, OpenCV, TensorFlow, and Keras."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python>=4.9",
+  "tensorflow>=2.16",
+  "datasets>=3.0",
+  "pillow>=10.0",
+]
+
+[project.scripts]
+emotion-detect = "emotion_detection.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

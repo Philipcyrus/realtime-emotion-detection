@@ -1,0 +1,41 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+*.log
+*.tmp
+
+# Local editor and assistant/tool metadata
+.vscode/
+.idea/
+*.code-workspace
+.codex/
+.agents/
+.claude/
+.cursor/
+.continue/
+.aider*
+.windsurf/
+
+# Local planning/process artifacts
+.specify/
+specs/
+
+# Local scratch files
+test.md
+
+reports/
+recordings/
+data/
+assets/models/*.h5
+assets/models/*.keras
+assets/models/*.metadata.json
+assets/models/*.pb
+assets/models/saved_model/
