@@ -316,3 +316,4 @@ If Hugging Face rate-limits or times out, rerun the `download-fer2013` command. 
 The larger InterviewIQ idea can use this project as its webcam emotion-analysis subsystem.
 
 See `docs/PORTFOLIO.md` for a concise demo narrative and honest model-positioning notes.
+See `CHANGELOG.md` for release notes and future project updates.
