@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - Added this changelog so future project updates can be tracked in the repository.
 
-## [0.1.0] - 2026-06-14
+## [0.1.0] - 2024-06-14
 
 ### Added
 
